@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoImage from "../assets/images/lws-logo-light.svg";
+import logoImage from "../assets/images/chat.png";
 
 export default function Register() {
     return (
@@ -36,7 +36,7 @@ export default function Register() {
                                 />
                             </div>
 
-                            <div>
+                            <div className="py-2">
                                 <label
                                     htmlFor="email-address"
                                     className="sr-only"
@@ -54,7 +54,7 @@ export default function Register() {
                                 />
                             </div>
 
-                            <div>
+                            <div className="py-2">
                                 <label htmlFor="password" className="sr-only">
                                     Password
                                 </label>

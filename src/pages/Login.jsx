@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logoImage from "../assets/images/lws-logo-light.svg";
+import logoImage from "../assets/images/chat.png";
 import Error from "../components/ui/Error";
 
 export default function Login() {
@@ -39,7 +39,7 @@ export default function Login() {
                                     placeholder="Email address"
                                 />
                             </div>
-                            <div>
+                            <div className="py-2">
                                 <label htmlFor="password" className="sr-only">
                                     Password
                                 </label>
@@ -75,7 +75,7 @@ export default function Login() {
                             </button>
                         </div>
 
-                        <Error message="There was an error" />
+                        {/* <Error message="There was an error" /> */}
                     </form>
                 </div>
             </div>

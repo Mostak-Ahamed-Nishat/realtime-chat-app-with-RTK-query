@@ -1,37 +1,37 @@
 {
     "users": [
         {
-            "email": "sumit@learnwithsumit.com",
+            "email": "mostak@gmail.com",
             "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
-            "name": "Sumit Saha",
+            "name": "Mostak Ahamed",
             "id": 1
         },
         {
-            "email": "akash@learnwithsumit.com",
+            "email": "nishat@gmail.com",
             "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
-            "name": "Akash Ahmed",
+            "name": "Nishat Mostakim",
             "id": 2
         },
         {
-            "email": "saad@learnwithsumit.com",
+            "email": "rahim@gmail.com",
             "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
-            "name": "Saad Hasan",
+            "name": "Rahim Hasan",
             "id": 3
         }
     ],
     "conversations": [
         {
             "id": 1,
-            "participants": "sumit@learnwithsumit.com-akash@learnwithsumit.com",
+            "participants": "mostak@gmail.com-nishat@gmail.com",
             "users": [
                 {
-                    "email": "sumit@learnwithsumit.com",
-                    "name": "Sumit Saha",
+                    "email": "mostak@gmail.com",
+                    "name": "Mostak Ahamed",
                     "id": 1
                 },
                 {
-                    "email": "akash@learnwithsumit.com",
-                    "name": "Akash Ahmed",
+                    "email": "nishat@gmail.com",
+                    "name": "Nishat Mostakim",
                     "id": 2
                 }
             ],
@@ -40,16 +40,16 @@
         },
         {
             "id": 2,
-            "participants": "sumit@learnwithsumit.com-saad@learnwithsumit.com",
+            "participants": "mostak@gmail.com-rahim@gmail.com",
             "users": [
                 {
                     "email": "sumit@learnwithsumit.com",
-                    "name": "Sumit Saha",
+                    "name": "Mostak Ahamed",
                     "id": 1
                 },
                 {
-                    "email": "akash@learnwithsumit.com",
-                    "name": "Saad Hasan",
+                    "email": "rahim@gmail.com",
+                    "name": "Rahim Hasan",
                     "id": 3
                 }
             ],
@@ -62,13 +62,13 @@
             "id": 1,
             "conversationId": 1,
             "sender": {
-                "email": "sumit@learnwithsumit.com",
-                "name": "Sumit Saha",
+                "email": "mostak@gmail.com",
+                "name": "Mostak Ahamed",
                 "id": 1
             },
             "receiver": {
-                "email": "akash@learnwithsumit.com",
-                "name": "Akash Ahmed",
+                "email": "nishat@gmail.com",
+                "name": "Nishat Mostakim",
                 "id": 2
             },
             "message": "Hello",
@@ -78,13 +78,13 @@
             "id": 2,
             "conversationId": 1,
             "sender": {
-                "email": "akash@learnwithsumit.com",
-                "name": "Akash Ahmed",
+                "email": "nishat@gmail.com",
+                "name": "Nishat Mostakim",
                 "id": 2
             },
             "receiver": {
-                "email": "sumit@learnwithsumit.com",
-                "name": "Sumit Saha",
+                "email": "mostak@gmail.com",
+                "name": "Mostak Ahamed",
                 "id": 1
             },
             "message": "How are you?",
