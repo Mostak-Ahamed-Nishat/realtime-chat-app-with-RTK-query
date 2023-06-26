@@ -1,94 +1,112 @@
 {
-    "users": [
+  "users": [
+    {
+      "email": "mostak@gmail.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Mostak Ahamed",
+      "id": 1
+    },
+    {
+      "email": "nishat@gmail.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Nishat Mostakim",
+      "id": 2
+    },
+    {
+      "email": "rahim@gmail.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Rahim Hasan",
+      "id": 3
+    },
+    {
+      "email": "mostak487@gmail.com",
+      "password": "$2a$10$oj4pUcTnO9/QOgXfUTzxXu/JtBVkM2PZZSjGfM1pkapIP/64XkpSC",
+      "name": "mostak",
+      "id": 4
+    },
+    {
+      "email": "kamal@gmail.com",
+      "password": "$2a$10$gKJgz.96rBc69ZgHIvu0HOv8rF210UdMJB3q/EzEK4nBT9Jv67Nla",
+      "name": "kamal",
+      "id": 5
+    },
+    {
+      "email": "nish@gmail.com",
+      "password": "$2a$10$Xi4FlR82.SUPYQ7raEet.e4hfNLMW/G/HQDOG.ol8dd/eVL5.0Vo.",
+      "name": "nis",
+      "id": 6
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "participants": "mostak@gmail.com-nishat@gmail.com",
+      "users": [
         {
-            "email": "mostak@gmail.com",
-            "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
-            "name": "Mostak Ahamed",
-            "id": 1
+          "email": "mostak@gmail.com",
+          "name": "Mostak Ahamed",
+          "id": 1
         },
         {
-            "email": "nishat@gmail.com",
-            "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
-            "name": "Nishat Mostakim",
-            "id": 2
-        },
-        {
-            "email": "rahim@gmail.com",
-            "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
-            "name": "Rahim Hasan",
-            "id": 3
+          "email": "nishat@gmail.com",
+          "name": "Nishat Mostakim",
+          "id": 2
         }
-    ],
-    "conversations": [
+      ],
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    },
+    {
+      "id": 2,
+      "participants": "mostak@gmail.com-rahim@gmail.com",
+      "users": [
         {
-            "id": 1,
-            "participants": "mostak@gmail.com-nishat@gmail.com",
-            "users": [
-                {
-                    "email": "mostak@gmail.com",
-                    "name": "Mostak Ahamed",
-                    "id": 1
-                },
-                {
-                    "email": "nishat@gmail.com",
-                    "name": "Nishat Mostakim",
-                    "id": 2
-                }
-            ],
-            "message": "How are you?",
-            "timestamp": 1661976143678
+          "email": "sumit@learnwithsumit.com",
+          "name": "Mostak Ahamed",
+          "id": 1
         },
         {
-            "id": 2,
-            "participants": "mostak@gmail.com-rahim@gmail.com",
-            "users": [
-                {
-                    "email": "sumit@learnwithsumit.com",
-                    "name": "Mostak Ahamed",
-                    "id": 1
-                },
-                {
-                    "email": "rahim@gmail.com",
-                    "name": "Rahim Hasan",
-                    "id": 3
-                }
-            ],
-            "message": "How are you?",
-            "timestamp": 1661976143678
+          "email": "rahim@gmail.com",
+          "name": "Rahim Hasan",
+          "id": 3
         }
-    ],
-    "messages": [
-        {
-            "id": 1,
-            "conversationId": 1,
-            "sender": {
-                "email": "mostak@gmail.com",
-                "name": "Mostak Ahamed",
-                "id": 1
-            },
-            "receiver": {
-                "email": "nishat@gmail.com",
-                "name": "Nishat Mostakim",
-                "id": 2
-            },
-            "message": "Hello",
-            "timestamp": 1661976143557
-        },
-        {
-            "id": 2,
-            "conversationId": 1,
-            "sender": {
-                "email": "nishat@gmail.com",
-                "name": "Nishat Mostakim",
-                "id": 2
-            },
-            "receiver": {
-                "email": "mostak@gmail.com",
-                "name": "Mostak Ahamed",
-                "id": 1
-            },
-            "message": "How are you?",
-            "timestamp": 1661976143678
-        }
-    ]
+      ],
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "conversationId": 1,
+      "sender": {
+        "email": "mostak@gmail.com",
+        "name": "Mostak Ahamed",
+        "id": 1
+      },
+      "receiver": {
+        "email": "nishat@gmail.com",
+        "name": "Nishat Mostakim",
+        "id": 2
+      },
+      "message": "Hello",
+      "timestamp": 1661976143557
+    },
+    {
+      "id": 2,
+      "conversationId": 1,
+      "sender": {
+        "email": "nishat@gmail.com",
+        "name": "Nishat Mostakim",
+        "id": 2
+      },
+      "receiver": {
+        "email": "mostak@gmail.com",
+        "name": "Mostak Ahamed",
+        "id": 1
+      },
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    }
+  ]
 }
