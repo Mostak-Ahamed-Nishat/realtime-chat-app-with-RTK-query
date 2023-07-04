@@ -35,6 +35,12 @@
       "password": "$2a$10$Xi4FlR82.SUPYQ7raEet.e4hfNLMW/G/HQDOG.ol8dd/eVL5.0Vo.",
       "name": "nis",
       "id": 6
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$syY8dGUB71SlbYwhwlGMC.KGWIvQCFX.qcuP5AC4EF1EWmg2eIUaa",
+      "name": "test",
+      "id": 7
     }
   ],
   "conversations": [

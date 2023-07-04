@@ -21,10 +21,11 @@ export default function Register() {
       setErrors(error);
     }
     if (data?.accessToken && data?.user) {
-      navigate('/inbox');
+      navigate("/inbox");
     }
   }, [data, error, isError, navigate]);
 
+  //Set to state
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -150,6 +151,16 @@ export default function Register() {
                 >
                   Agreed with the terms and condition
                 </label>
+              </div>
+            </div>
+            <div className="flex items-center justify-end">
+              <div className="text-sm">
+                <Link
+                  to="/"
+                  className="font-medium text-violet-600 hover:text-violet-500"
+                >
+                  Login
+                </Link>
               </div>
             </div>
 
