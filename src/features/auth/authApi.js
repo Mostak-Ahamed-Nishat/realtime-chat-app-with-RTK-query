@@ -23,7 +23,7 @@ export const authApi = apiSlice.injectEndpoints({
                 dispatch
             }) {
                 try {
-                    const result = await queryFulfilled()
+                    const result = await queryFulfilled
                     localStorage.setItem('auth', JSON.stringify({
                         accessToken: result.data.accessToken,
                         user: result.data.user
@@ -40,30 +40,34 @@ export const authApi = apiSlice.injectEndpoints({
             }
 
         }),
+
         login: builder.mutation({
             query: (data) => ({
                 url: '/login',
                 method: 'POST',
                 body: data
             }),
+
             async onQueryStarted(arg, {
-                queryFulfilled,
-                dispatch
+                dispatch, getState, queryFulfilled, requestId, extra, getCacheEntry 
             }) {
                 try {
-                    const result = await queryFulfilled()
-                    localStorage.setItem('auth', JSON.stringify({
-                        accessToken: result.data.accessToken,
-                        user: result.data.user
-                    }));
+                const result = await queryFulfilled
+                localStorage.setItem('auth', JSON.stringify({
+                    accessToken: result.data.accessToken,
+                    user: result.data.user
+                }));
 
-                    dispatch(userLoggedIn({
-                        accessToken: result.data.accessToken,
-                        user: result.data.user
-                    }))
+                console.log(localStorage.getItem('auth'));
+
+
+                dispatch(userLoggedIn({
+                    accessToken: result.data.accessToken,
+                    user: result.data.user
+                }))
 
                 } catch (error) {
-                    //Nothing to do here
+                    console.log("Hitting Error: " + error)
                 }
             }
         })

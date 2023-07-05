@@ -1,46 +1,22 @@
 {
   "users": [
     {
-      "email": "mostak@gmail.com",
-      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
-      "name": "Mostak Ahamed",
-      "id": 1
-    },
-    {
       "email": "nishat@gmail.com",
-      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
-      "name": "Nishat Mostakim",
+      "password": "$2a$10$FDYVEbCRIhtMPEDvJ3F1xuttk0k0mOxBMoYVbdoIiLnkLILiEPPXi",
+      "name": "nishat",
       "id": 2
     },
     {
-      "email": "rahim@gmail.com",
-      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
-      "name": "Rahim Hasan",
+      "email": "test@gmail.com",
+      "password": "$2a$10$sM1TnhxvCSl5Uh6qtzE1JOEFlbpFxeIbEikAradXOzycW4wJmcX2S",
+      "name": "test",
       "id": 3
     },
     {
-      "email": "mostak487@gmail.com",
-      "password": "$2a$10$oj4pUcTnO9/QOgXfUTzxXu/JtBVkM2PZZSjGfM1pkapIP/64XkpSC",
+      "email": "mostak@gmail.com",
+      "password": "$2a$10$sVxpcUpK5shVQ.xquvyOF.6VkKqx9pLei/cYQIhrlD3QZ2SJ.VBOC",
       "name": "mostak",
       "id": 4
-    },
-    {
-      "email": "kamal@gmail.com",
-      "password": "$2a$10$gKJgz.96rBc69ZgHIvu0HOv8rF210UdMJB3q/EzEK4nBT9Jv67Nla",
-      "name": "kamal",
-      "id": 5
-    },
-    {
-      "email": "nish@gmail.com",
-      "password": "$2a$10$Xi4FlR82.SUPYQ7raEet.e4hfNLMW/G/HQDOG.ol8dd/eVL5.0Vo.",
-      "name": "nis",
-      "id": 6
-    },
-    {
-      "email": "test@gmail.com",
-      "password": "$2a$10$syY8dGUB71SlbYwhwlGMC.KGWIvQCFX.qcuP5AC4EF1EWmg2eIUaa",
-      "name": "test",
-      "id": 7
     }
   ],
   "conversations": [
@@ -68,12 +44,30 @@
       "users": [
         {
           "email": "sumit@learnwithsumit.com",
-          "name": "Mostak Ahamed",
+          "name": "mostak",
           "id": 1
         },
         {
           "email": "rahim@gmail.com",
           "name": "Rahim Hasan",
+          "id": 3
+        }
+      ],
+      "message": "How are you?",
+      "timestamp": 1661976143678
+    },
+    {
+      "id": 3,
+      "participants": "mostak@gmail.com-test@gmail.com",
+      "users": [
+        {
+          "email": "mostak@gmail.com",
+          "name": "Mostak Ahamed",
+          "id": 1
+        },
+        {
+          "email": "test@gmail.com",
+          "name": "test",
           "id": 3
         }
       ],

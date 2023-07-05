@@ -15,11 +15,11 @@ export const apiSlice = createApi({
         }) => {
             const token = getState()?.auth?.accessToken
             if(token) {
+                console.log(token);
                 headers.set('Authorization',`Bearer ${token}`)
             }
             return headers
         }
-
     }),
     tagTypes: [],
     endpoints: (builder) => ({})
