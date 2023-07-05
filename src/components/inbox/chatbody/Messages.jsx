@@ -2,8 +2,6 @@ import { useSelector } from "react-redux";
 import Message from "./Message";
 
 export default function Messages({ messages = [] }) {
-  console.log("Messages from Message component");
-  console.log(messages);
   const { user } = useSelector((state) => state.auth) || {};
   const { email: userEmail } = user || {};
 
