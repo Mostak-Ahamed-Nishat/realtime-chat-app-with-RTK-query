@@ -26,7 +26,7 @@ export default function ChatBody() {
       <>
         <ChatHead messages={messages[0]} />
         <Messages messages={messages} />
-        <Options />
+        <Options info={messages[0]}/>
       </>
     );
   }
@@ -36,13 +36,4 @@ export default function ChatBody() {
       <div className="w-full grid conversation-row-grid">{content}</div>
     </div>
   );
-}
-
-{
-  /* <ChatHead
-          avatar="https://cdn.pixabay.com/photo/2018/01/15/07/51/woman-3083383__340.jpg"
-          name="Akash Ahmed"
-        />
-        <Messages />
-        <Options /> */
 }

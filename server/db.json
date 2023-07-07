@@ -72,22 +72,22 @@
     },
     {
       "id": 3,
-      "participants": "mostak@gmail.com-rahim@gmail.com",
+      "participants": "rahim@gmail.com-mostak@gmail.com",
       "users": [
         {
           "email": "rahim@gmail.com",
+          "password": "$2a$10$sM1TnhxvCSl5Uh6qtzE1JOEFlbpFxeIbEikAradXOzycW4wJmcX2S",
           "name": "rahim",
           "id": 5
         },
         {
           "email": "mostak@gmail.com",
-          "password": "$2a$10$sVxpcUpK5shVQ.xquvyOF.6VkKqx9pLei/cYQIhrlD3QZ2SJ.VBOC",
           "name": "mostak",
           "id": 4
         }
       ],
-      "message": "I'm Fine how are you ?",
-      "timestamp": 1688742401800
+      "message": "is that working ?",
+      "timestamp": 1688749298759
     },
     {
       "participants": "nishat@gmail.com-test2@gmail.com",
@@ -194,6 +194,62 @@
       "message": "I'm Fine how are you ?",
       "timestamp": 1688742401800,
       "id": 4
+    },
+    {
+      "conversationId": 3,
+      "sender": {
+        "email": "mostak@gmail.com",
+        "name": "mostak",
+        "id": 4
+      },
+      "receiver": {
+        "email": "rahim@gmail.com",
+        "password": "$2a$10$sM1TnhxvCSl5Uh6qtzE1JOEFlbpFxeIbEikAradXOzycW4wJmcX2S",
+        "name": "rahim",
+        "id": 5
+      },
+      "message": "is everything ok ?",
+      "timestamp": 1688746966918,
+      "id": 5
+    },
+    {
+      "sender": "mostak@gmail.com",
+      "data": {
+        "participants": "rahim@gmail.com-mostak@gmail.com",
+        "users": [
+          {
+            "email": "rahim@gmail.com",
+            "password": "$2a$10$sM1TnhxvCSl5Uh6qtzE1JOEFlbpFxeIbEikAradXOzycW4wJmcX2S",
+            "name": "rahim",
+            "id": 5
+          },
+          {
+            "email": "mostak@gmail.com",
+            "name": "mostak",
+            "id": 4
+          }
+        ],
+        "message": "Conversation added",
+        "timestamp": 1688748961335
+      },
+      "id": 6
+    },
+    {
+      "conversationId": 3,
+      "sender": {
+        "email": "mostak@gmail.com",
+        "name": "mostak",
+        "id": 4
+      },
+      "receiver": {
+        "email": "rahim@gmail.com",
+        "password": "$2a$10$sM1TnhxvCSl5Uh6qtzE1JOEFlbpFxeIbEikAradXOzycW4wJmcX2S",
+        "name": "rahim",
+        "id": 5
+      },
+      "message": "is that working ?",
+      "timestamp": 1688749298759,
+      "id": 7
     }
   ]
 }
