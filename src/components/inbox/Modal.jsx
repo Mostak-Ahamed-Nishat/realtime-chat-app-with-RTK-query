@@ -78,7 +78,7 @@ export default function Modal({ open, control }) {
     }
   };
 
-  const handleSearch = debounce(checkEmail, 0);
+  const handleSearch = debounce(checkEmail, 50);
 
   //On Submit check if there already exists conversation add to the conversation or create a new conversation
   const submitHandler = (e) => {
